@@ -1,0 +1,54 @@
+# ==========================================
+# 1. Compiled Binaries (Never commit to Git)
+# ==========================================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+platform-tool
+platform-tool.exe
+
+# ==========================================
+# 2. Local Kubernetes/Cloud Cache Contexts
+# ==========================================
+.kube/
+.minikube/
+.docker/
+
+# ==========================================
+# 3. IDE & Text Editor Metadata Folder Blocks
+# ==========================================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# 4. Debug Logs & Crash Dumps
+# ==========================================
+*.log
+crash.txt
+pprof/
+
+# ==========================================
+# 5. OS-Specific System Artifacts
+# ==========================================
+# Windows OS hidden metadata
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS Finder indexing trails
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Personal Manifests
+notes.txt
+readme.txt
+rough_testing.go
